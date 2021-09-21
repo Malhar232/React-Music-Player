@@ -1,0 +1,28 @@
+.NavBar {
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  h1 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 3rem;
+    color: #e85a50;
+    
+  }
+  button {
+    padding: 1rem;
+    z-index: 2;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #e85a50;
+    color: white;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}

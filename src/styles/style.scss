@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
+@import "./searchbar";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eae8dc;
+  color: #e85a50;
+  font-family: "Carter One", cursive;
+}
